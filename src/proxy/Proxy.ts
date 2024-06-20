@@ -112,7 +112,7 @@ export class Proxy extends EventEmitter {
       const broadcastMOTD = await Motd.MOTD.generateMOTDFromConfig(this.config, this.config.useNatives);
       (broadcastMOTD as any)._static = true;
       this.broadcastMotd = broadcastMOTD;
-      // playercount will be dynamically updated
+      // playercount will be dynamically updated - fixed go
     }
     if (this.config.tls && this.config.tls.enabled) {
       this.httpServer = https
