@@ -46,8 +46,8 @@ export const config: Config = {
       originBlacklist: null,
     },
     server: {
-      host: "127.0.0.1",
-      port: 1111,
+      host: "winterlegends.club",
+      port: 25565,
     },
     tls: undefined,
   },
