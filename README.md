@@ -9,9 +9,9 @@
 
 ## Installing and Running
 
-As of now, just run `sh startup.sh` in terminal,
-that will run all of the necessary commands needed
-to be ran for the program to function properly.
+First, run `sh install.sh` in the terminal, which will install all modules.
+then just run `sh startup.sh` in terminal, that will run all of the necessary
+commands needed to be ran for the program to function properly.
 
 ## Plugins
 
